@@ -1,0 +1,136 @@
+<!DOCKTYPE html>
+<!--the vim tutorial i wrote-->
+<html>
+
+        <head>
+                    <title>vim-tutorials</title>
+        </head>
+
+
+        <body>
+           <h1 style="text-align:center">  Vim Tutorials </h1>
+           
+		<div style="text-align:center">
+           <img src="vim.png"width="200"height="200"alt="vim logo" />
+           	</div>
+
+                <p>
+i,s -> insert mode
+<hr />
+x,X -> delete one character 
+<hr />
+o,O -> open new line
+<hr />
+r -> replace one character
+<hr />
+a -> append to end of the word
+<br />
+<br />
+A -> append to end of the line
+<hr />
+u -> undo
+<hr />
+d -> delete
+<hr />
+number x -> delete number of characters alongside
+<hr />
+d + d -> delete a line
+<br />
+<br />
+d + w -> delete a word
+<hr />
+number dd -> delete number of lines i.e --> 3dd -> delete 3 lines
+<br />
+<br />
+number dw -> delete number of words
+<hr />
+J -> join
+<br />
+<br />
+j -> scroll down
+<hr />
+G -> go to line (G -->last line, 1G --> first line, 10G --> line10)
+<hr />
+y -> yank/copy (yy --> one line copy, yw --> one word copy, 3y --> 3line copy and so on ...)
+<hr />
+P,p -> paste
+<hr />
+dd -> can also cut line and with p,P you can bring it up :)
+<hr />
+/ whatever you want -> search (n,N -> next)
+<hr />
+$ -> end  of the line
+<br />
+<br />
+^ -> start of the line
+<hr />
+. -> repeat
+<hr />
+% -> go at start/end of loop
+<hr />
+v -> visual mode (select with arrow keys) *you can after selecting use normal mode like d -> delete
+<hr />
+it -> inner tag (select inside tags) *in visual mode do this
+<hr />
+v --> select --> command mode(shift :) --> sort
+<hr />
+v --> select --> type normal(will take you to normal mode)A:(adding : to end of lines you selected)
+<hr />
+in command mode(:) -> set number(add numbers), set nonumber(rm numbers) *note that you can click tab key to see different sets
+<hr />
+:colorscheme -> set different colors
+<hr />
+:Explore -> file manager
+<br />
+<br />
+:Vexplore -> vertical file manager
+<br />
+<br />
+:Sexplore -> split file manager
+<hr />
+q!2 -> quit 2 times (go 2 times back)
+<hr />
+:! -> os command like ls
+<br />
+<br />
+:.! -> insert data here
+<hr />
+<h4> Buffer </h4>
+buffer -> in terminal you can open 2 or more files in vim with vim file1 file2 and so on
+<br />
+<br />
+# buffer is hidden so in command mode type ls(:ls) and it shows you files you opened before * %a means your active buffer
+<br />
+<br />
+# you can also go to next/previous buffer with :bn/bp
+<br />
+<br />
+# also type :b1 (buffer1), :b name of your file
+<br />
+<br />
+# deleting buffer --> :bd (if doesn't change that), :bd! (delete even change that)
+<hr />
+<h4> Substitute </h4>
+:s -> substitute,replace
+<br />
+<br />
+# s/current name/the name you wanna change/g(it means in 1 line)
+<br />
+<br />
+# number of line(i.e 13),number of last line(i.e 22)s/current name/the name you wanna change/g(it means in whatever line you see)
+<br />
+<br />
+# %s/current name/the name you wanna change/g(it means in whatever line you see), % means subsitute in all lines
+<br />
+<br />
+# 44,51s/#/#space(click on space) -> after # indented :)
+<hr />
+. -> doing your function again
+
+		</p>
+        </body>
+
+
+
+
+</html>
